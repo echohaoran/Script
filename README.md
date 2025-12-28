@@ -28,7 +28,7 @@
 - [`disk-manager.ps1`](Windows/disk-manager.ps1)
   分析、清理和管理磁盘空间，支持碎片整理和磁盘检查。
 
-#### 原有脚本
+#### 导出配置信息
 - [`export-system-report.ps1`](Windows/export-system-report.ps1)  
   一键生成包含系统、硬件、CPU、磁盘、网络信息的综合报告，保存为桌面文本文件。
 
@@ -40,7 +40,7 @@
 - [`clean-temp-files.ps1`](Windows/clean-temp-files.ps1)
   一键清理临时文件。
 
-#### 
+#### 导出已安装应用列表
 - [`list-installed-software.ps1`](Windows/list-installed-software.ps1)
   导出所有已安装程序（来自"程序和功能"列表）。
 
@@ -152,7 +152,7 @@
 - [`cron-manager.sh`](Utils/cron-manager.sh)
   管理系统定时任务（cron），支持添加、删除、备份等操作。
 
-#### 原有脚本
+#### Shell脚本模板
 - [`template.sh`](Utils/template.sh)  
   健壮的 Shell 脚本模板，包含严格模式、日志记录和基础错误处理。
 
