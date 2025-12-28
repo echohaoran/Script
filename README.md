@@ -31,14 +31,24 @@
 #### 原有脚本
 - [`export-system-report.ps1`](Windows/export-system-report.ps1)  
   一键生成包含系统、硬件、CPU、磁盘、网络信息的综合报告，保存为桌面文本文件。
+
+#### 收集系统日志
 - [`export-crash-logs.ps1`](Windows/export-crash-logs.ps1)
-  收集系统所有日志，以压缩包的形式存放在桌面。
+  收集系统所有日志，以压缩包的形式存放在桌面
+
+#### 清理临时文件
 - [`clean-temp-files.ps1`](Windows/clean-temp-files.ps1)
   一键清理临时文件。
+
+#### 
 - [`list-installed-software.ps1`](Windows/list-installed-software.ps1)
   导出所有已安装程序（来自"程序和功能"列表）。
+
+#### 试网络连通性
 - [`network-diag.ps1`](Windows/network-diag.ps1)
   一键测试网络基础连通性（网关、DNS、公网）。
+
+#### 备份指定文件夹到桌面
 - [`backup-folder.ps1`](Windows/backup-folder.ps1)
   备份指定文件夹到桌面，自动压缩为 ZIP。
 
@@ -90,7 +100,7 @@
 - [`network-diag.sh`](MacOS/network-diag.sh)
   诊断和修复macOS网络连接问题。
 
-#### 原有脚本
+#### 快速配置 macOS 开发环境
 - [`setup-defaults.sh`](Macos/setup-defaults.sh)  
   快速配置 macOS 常用系统偏好（如显示扩展名、Dock 行为、Finder 选项等）。
 
@@ -116,7 +126,7 @@
 - [`network-monitor.py`](Python/network-monitor.py)
   监控网络连接、速度、流量等，支持告警功能。
 
-#### 原有脚本
+#### 文件备份指定目录
 - [`backup-tool.py`](Python/backup-tool.py)  
   递归备份指定目录，生成带时间戳的副本。
 
